@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "SrL8RO8I4IcfD/oIdBimfLVmVpgzowzLalD9pcxCFTWPRQ2rxrd8m3On0aiX1Et/AX5ebcR16exyazHcCmgdSw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\ammuj\\source\\repos\\CP380-PubsWeb\\CP380-PubsWeb.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project CP380-PubsLab is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project CP380-PubsLab supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "CP380-PubsLab",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

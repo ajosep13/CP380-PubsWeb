@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CP380-PubsLab/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/CP380-PubsLab.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CP380-PubsLab.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CP380-PubsLab/1.0.0": {
+      "type": "project",
+      "path": "CP380-PubsLab/CP380-PubsLab.csproj",
+      "msbuildProject": "CP380-PubsLab/CP380-PubsLab.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CP380-PubsLab >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ammuj\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ammuj\\source\\repos\\CP380-PubsWeb\\CP380-PubsWeb.csproj",
+      "projectName": "CP380-PubsWeb",
+      "projectPath": "C:\\Users\\ammuj\\source\\repos\\CP380-PubsWeb\\CP380-PubsWeb.csproj",
+      "packagesPath": "C:\\Users\\ammuj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ammuj\\source\\repos\\CP380-PubsWeb\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ammuj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\ammuj\\source\\repos\\CP380-PubsWeb\\CP380-PubsLab\\CP380-PubsLab.csproj": {
+              "projectPath": "C:\\Users\\ammuj\\source\\repos\\CP380-PubsWeb\\CP380-PubsLab\\CP380-PubsLab.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project CP380-PubsLab is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project CP380-PubsLab supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "CP380-PubsLab",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
